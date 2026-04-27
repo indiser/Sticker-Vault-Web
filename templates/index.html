@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" class="antialiased">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticker Vault</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-out forwards',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0', transform: 'translateY(10px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-200 min-h-screen selection:bg-indigo-500 selection:text-white flex flex-col">
+    
+    <header class="border-b border-slate-800/60 bg-slate-950/80 backdrop-blur-xl sticky top-0 z-50">
+        <div class="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
+            <h1 class="text-xl font-bold tracking-tight bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
+                Sticker Vault
+            </h1>
+            <div class="text-sm font-medium text-slate-400 bg-slate-900 px-3 py-1 rounded-full border border-slate-800" id="counter">
+                Loading...
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 md:px-6 py-8 flex-grow">
+        <div id="error-state" class="hidden text-center py-20">
+            <p class="text-red-400 font-medium">Failed to load stickers.json. Check the console.</p>
+        </div>
+        
+        <div id="grid" class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 gap-3 sm:gap-4 md:gap-5">
+            </div>
+    </main>
+
+    <footer class="border-t border-slate-800/60 py-6 mt-auto text-center text-slate-500 text-sm">
+        <p>Assets extracted and compiled via automated pipeline.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            const grid = document.getElementById('grid');
+            const counter = document.getElementById('counter');
+            const errorState = document.getElementById('error-state');
+
+            try {
+                const response = await fetch('/static/dist/stickers.json');
+                if (!response.ok) throw new Error('Network response was not ok');
+                const stickers = await response.json();
+                
+                counter.innerText = `${stickers.length} Assets`;
+
+                stickers.forEach((sticker, index) => {
+                    // Stagger the animation delay based on index for a cascading load effect
+                    const delay = Math.min(index * 30, 500); 
+                    
+                    const card = document.createElement('div');
+                    card.className = `group relative aspect-square bg-slate-900 rounded-2xl border border-slate-800/50 overflow-hidden shadow-sm hover:shadow-indigo-500/10 hover:border-indigo-500/30 transition-all duration-300 cursor-pointer opacity-0 animate-fade-in`;
+                    card.style.animationDelay = `${delay}ms`;
+                    
+                    card.innerHTML = `
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-950/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        <img 
+                            src="/static/dist/${sticker.src}" 
+                            alt="Sticker ${sticker.id}" 
+                            loading="lazy" 
+                            class="w-full h-full object-contain p-3 sm:p-4 drop-shadow-md transform group-hover:scale-110 transition-transform duration-300 z-0"
+                        >
+                        `;
+                    
+                    // Simple interaction: Click to view full image in a new tab
+                    card.addEventListener('click', (e) => {
+                        e.preventDefault();
+    
+                        // Construct the correct absolute path for Flask
+                        const fileUrl = `/static/dist/${sticker.src}`;
+    
+                        // Create a temporary anchor element to force the download
+                        const a = document.createElement('a');
+                        a.href = fileUrl;
+                        a.download = sticker.src; // Suggests the filename to the browser
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                    });
+
+                    grid.appendChild(card);
+                });
+
+            } catch (error) {
+                console.error('Failed to load stickers:', error);
+                counter.innerText = 'Error';
+                errorState.classList.remove('hidden');
+            }
+        });
+    </script>
+</body>
+</html>

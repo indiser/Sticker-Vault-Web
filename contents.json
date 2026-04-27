@@ -1,0 +1,601 @@
+{
+  "android_play_store_link": "",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "1",
+      "name": "Sticker Vault Vol. 1",
+      "publisher": "Indiser",
+      "tray_image_file": "tray_1.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "sticker_001.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_002.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_003.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_004.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_005.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_006.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_007.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_008.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_009.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_010.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_011.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_012.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_013.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_014.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_015.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_016.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_017.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_018.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_019.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_020.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_021.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_022.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_023.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_024.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_025.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_026.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_027.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_028.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_029.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_030.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "2",
+      "name": "Sticker Vault Vol. 2",
+      "publisher": "Indiser",
+      "tray_image_file": "tray_2.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "sticker_031.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_032.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_033.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_034.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_035.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_036.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_037.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_038.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_039.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_040.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_041.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_042.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_043.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_044.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_045.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_046.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_047.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_048.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_049.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_050.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_051.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_052.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_053.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_054.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_055.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_056.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_057.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_058.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_059.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_060.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "3",
+      "name": "Sticker Vault Vol. 3",
+      "publisher": "Indiser",
+      "tray_image_file": "tray_3.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "sticker_061.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_062.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_063.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_064.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_065.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_066.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_067.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_068.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_069.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_070.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_071.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_072.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_073.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_074.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_075.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_076.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_077.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_078.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        },
+        {
+          "image_file": "sticker_079.webp",
+          "emojis": [
+            "🔥",
+            "😎"
+          ]
+        }
+      ]
+    }
+  ]
+}
